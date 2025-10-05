@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Inici - NaturaViva</title>
   <link rel="stylesheet" href="global.css">
+
   <style>
     .contenidor{
         background-color: #ffffff;
@@ -16,10 +17,11 @@
     }
 
     .presentacio{
+        margin-top: 45px;
         text-align: center;
     }
     .presentacio h1{
-        font-size: 38px;
+        font-size: 40px;
         margin: 30px 0;
         color: #225b71;
     }
@@ -31,7 +33,7 @@
     }
     .presentacio button{
         font-size: 18px;
-        background-color: #63a2bb;
+        background-color: #6393bb;
         font-weight: bold;
         margin-bottom: 25px;
         padding: 14px;
@@ -51,9 +53,56 @@
         color: #ffffff;
     }
 
+    .seccions {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 50px;
+    }
+
+    .carta {
+        text-align: center;
+        background-color: #d0deee;
+        padding: 20px;
+        border-radius: 10px;
+        
+    }
+
+    h3{
+        margin: 0;
+    }
+
+    .carta span {
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 8px 10px;
+        border-radius: 4px;
+        margin-right: 5px;
+        font-size: 0.9em;
+    }
+    
+    .beneficis {
+      margin-top: 60px;
+      background-color: #42576d;
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      font-weight: bold;
+      border-radius: 15px;
+    }
+    .info_beneficis{
+        color: #ffffff;
+        font-weight: 200;
+        font-size: 17px;
+    }
+
+
+
   </style>
 </head>
+
 <body>
+
   <header>
     <div class="marca"><strong>ParedViva</strong></div>
     <nav>
@@ -62,6 +111,8 @@
       <a href="contacte.html"class="link">Contacte</a>
     </nav>
   </header>
+
+
   <main class="contenidor">
     <div class="presentacio">
         <h1>Descobreix ParedViva</h1>
@@ -87,10 +138,19 @@
           <span>Grip</span><span>Sec</span>
         </div>
     </div>
+    <div class="beneficis">
+      <div class="info_beneficis">Enviament 48h</div>
+      <div class="info_beneficis">Canvis gratuïts</div>
+      <div class="info_beneficis">Pagament segur</div>
+    </div>
 
   </main>
 
+
   <footer>
     <p>&copy; 2025 ParedViva · info@paredviva.cat</p>
-    <p>Segueix-nos a <a href="https://www.climbster.com/escalaLibre" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">Climbster</a></p>
+    <p>Segueix-nos a <a href="https://www.oliunid.es/" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">Climbster</a></p>
   </footer>
+
+</body>
+</html>
