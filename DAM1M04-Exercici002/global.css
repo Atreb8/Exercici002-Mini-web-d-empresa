@@ -14,7 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(127, 144, 172);
+    background-color: #42576d;
     font-size: 20px;
 }
 .marca{
