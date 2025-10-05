@@ -5,20 +5,22 @@ body{
     box-sizing: border-box;
 }
 
+
 header{
     position: fixed;
     top: 0;
-    height: 45px;
+    height: 35px;
     width: 100%;
     padding: 15px 30px; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #42576d;
-    font-size: 20px;
+    font-size: 15px;
 }
 .marca{
     font-size: 30px; color: rgb(253, 251, 250)
+    
 }
 nav{
     margin-right: 35px;
@@ -43,7 +45,7 @@ footer{
     background-color: #222;
     color: #eee;
     text-align: center;
-    padding: 15px 10px;
-    font-size: 14px;
+    padding: 10px 10px;
+    font-size: 12px;
     z-index: 1000;
 }
