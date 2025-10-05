@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="global.css">
   <style>
     .contenidor{
-        background-color: #cceac3;
+        background-color: #ffffff;
         margin:auto;
         max-width: 900px;
         border-radius: 40px;
@@ -19,21 +19,25 @@
         text-align: center;
     }
     .presentacio h1{
-        font-size: 36px;
+        font-size: 38px;
         margin: 30px 0;
+        color: #225b71;
     }
     .presentacio p {
-        font-size: 20px;
+        font-size: 18px;
         margin: 35px;
+        color: #225b71;
         
     }
     .presentacio button{
         font-size: 18px;
+        background-color: #63a2bb;
         font-weight: bold;
         margin-bottom: 25px;
-        padding: 12px;
+        padding: 14px;
         border: none;
-        border-radius: 6px;
+        border-color: #ffffff;
+        border-radius: 12px;
         cursor: pointer;
         transition: transform 0.2s ease;
     }
@@ -44,13 +48,14 @@
 
     a{
         text-decoration: none;
+        color: #ffffff;
     }
 
   </style>
 </head>
 <body>
   <header>
-    <div style="font-size: 30px; color: rgb(88, 83, 78);"><strong>ParedViva</strong></div>
+    <div class="marca"><strong>ParedViva</strong></div>
     <nav>
       <a href="index.html"class="link">Inici</a>
       <a href="productes.html"class="link">Productes</a>
@@ -60,8 +65,27 @@
   <main class="contenidor">
     <div class="presentacio">
         <h1>Descobreix ParedViva</h1>
-        <p>Del rocòdrom al cim de la muntanya. Tot el que necessites per pujar més amunt, ho trobaràs aquí.</p>
+        <p>Del rocòdrom al cim de la muntanya. <br>Tot el que necessites per pujar més amunt, ho trobaràs aquí.</p>
         <button><a href="productes.html">Explora la botiga</a> </button>
+    </div>
+    <div class="seccions">
+        <div class="carta">
+          <h3>Peus de gat</h3>
+          <p>Adherència i precisió per superar cada via.</p>
+          <span>Adherència</span><span>Confort</span>
+        </div>
+    
+        <div class="carta">
+          <h3>Arnesos</h3>
+          <p>Seguretat i llibertat per escalar amb confiança.</p>
+          <span>Resistent</span><span>Ergonòmic</span>
+        </div>
+    
+        <div class="carta">
+          <h3>Magnesi</h3>
+          <p>Millora l’adherència i evita la suor a les mans.</p>
+          <span>Grip</span><span>Sec</span>
+        </div>
     </div>
 
   </main>
