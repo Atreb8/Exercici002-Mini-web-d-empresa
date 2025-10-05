@@ -8,7 +8,6 @@
 
     body {
       margin: 0;
-      font-family: sans-serif;
       min-height: 100vh;
       display: flex;
     }
@@ -16,23 +15,24 @@
         display: flex;   
         margin: auto;
         max-width: 1100px;
-        gap: 30px;
+        gap: 60px;
     }
 
-
     .box_formulari{
-        background-color: rgb(125, 151, 177);
+        background-color: rgb(189, 213, 215);
         display: grid;
         gap: 10px;
         padding: 45px;
         margin: auto;
         border-radius: 20px;
+        
     }
     h2{
         font-size: 50px;
         margin: 0;
-        color: #fff;
+        color: #465258;
         margin-bottom: 5px;
+        padding-bottom: 10px;
     }
 
     button{
@@ -40,9 +40,9 @@
         color: #fff;
         margin: 20px 0;
         padding: 10px;
-        background-color: #3a4c67;
+        background-color: #6f8691;
         border-radius: 7px;
-        border: 2px solid #ccc;
+        border: 2px solid #ffffff;
         cursor: pointer;
     }
     input, textarea {
@@ -51,20 +51,39 @@
       border: 1px solid #ccc;
     }
     label{
-        color: #263040;
+        color: #465258;
+        font-weight: bold;
     }
 
     .box_info{
-        background-color: aquamarine;
+        background-color: rgb(189, 213, 215);
         display: grid;
         gap: 10px;
-        padding: 45px;
+        padding: 40px;
         margin: auto;
         border-radius: 20px;
+        
+    }
+    .box_info p{
+        color: #465258;
+        font-size: 16px;
+    }
+
+    .box_map_info{
+        height: 190px;
+        margin-top: 15px;
+    }
+    .img_maps{
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        border-radius: 15px;
     }
 
   </style>
 </head>
+
+
 <body>
   <header>
     <div class="marca"><strong>ParedViva</strong></div>
@@ -96,8 +115,8 @@
         <p><strong>Adreça: </strong>Carrer de la Costa, 123, Badalona</p>
         <p><strong>Horari: </strong>Dilluns a divendres, 9h - 17h</p>
         <p><strong>Telàfon: </strong>935 622 2548</p>
-        <div class="box_map">
-            
+        <div class="box_map_info">
+            <img src="img/maps.webp" class="img_maps">
         </div>
     </div>
 
@@ -106,7 +125,7 @@
 
   <footer>
     <p>&copy; 2025 ParedViva · info@paredviva.cat</p>
-    <p>Segueix-nos a <a href="https://www.oliunid.es/" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">Climbster</a></p>
+    <p>Segueix-nos a <a href="https://www.oliunid.es/" target="_blank" style="color: #30d8ef; text-decoration: none; font-weight: bold;">Climbster</a></p>
   </footer>
 </body>
 </html>
